@@ -36,22 +36,22 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 ** When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
 
 * scroller-easing="easingFunctionName"
-** Valid easing function names:
-*** Accelerating from zero velocity.
-**** 'easeInQuad'
-**** 'easeInCubic'
-**** 'easeInQuart'
-**** 'easeInQuint'
-*** Decelerating to zero velocity.
-**** 'easeOutQuad'
-**** 'easeOutCubic'
-**** 'easeOutQuart'
-**** 'easeOutQuint'
-*** Acceleration until halfway, then deceleration.
-**** 'easeInOutQuad'
-**** 'easeInOutCubic'
-**** 'easeInOutQuart'
-**** 'easeInOutQuint'
+-* Valid easing function names:
+--* Accelerating from zero velocity.
+---* 'easeInQuad'
+---* 'easeInCubic'
+---* 'easeInQuart'
+---* 'easeInQuint'
+--* Decelerating to zero velocity.
+---* 'easeOutQuad'
+---* 'easeOutCubic'
+---* 'easeOutQuart'
+---* 'easeOutQuint'
+--* Acceleration until halfway, then deceleration.
+---* 'easeInOutQuad'
+---* 'easeInOutCubic'
+---* 'easeInOutQuart'
+---* 'easeInOutQuint'
 
 * scroller-offset="10"
 ** Number of pixels to offset the top of scroll to location.
