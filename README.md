@@ -10,7 +10,7 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 
 ###With the 'aqScroller' module injected as a dependency in your AngularJS app (The element to scroll must have an id attribute defined):
 
-* Example scrolls to this element automatically when it is clicked using default settings:
+* Example scrolls to this element automatically when it is clicked using default settings:<br>
 --*`<div ng-attr-id="{{ctrl.setMyElementIDfunc()}}" ng-scroller></div>`
 
 * Example scrolls to another element when this element is clicked:<br>
