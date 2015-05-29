@@ -1,4 +1,4 @@
-## aqScroller AngularJS Module
+## AngularJS Module: 'aqScroller'
 
 Source code for aqScoller, an AngularJS module to facilitate easy-to-implement automatic scrolling to html elements.
 
@@ -15,17 +15,49 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 
 * Example scrolls to another element when this element is clicked (element for scroll-to must have an id):<br>
 `<div id="element-id"></div>`<br>
-`<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
+`<div ng-scroller scroller-to="{{'element-id'}}"></div>`
 
 * Example scrolls to this element when clicked if(condition = true):<br>
-`<div ng-scroller ng-scroll-if="{{'true'}}"></div>`
+`<div ng-scroller scroller-if="{{'true'}}"></div>`
 
 * Example scrolls to another element when this element is clicked if(condition = true) (element for scroll-to must have an id):<br>
 `<div id="element-id"></div>`<br>
-`<div ng-scroller ng-scroll-if="{{'true'}}" ng-scroll-to="{{'element-id'}}"></div>`
+`<div ng-scroller scroller-if="{{'true'}}" scroller-to="{{'element-id'}}"></div>`
 
 * Example scrolls using user-defined settings:<br>
 `<div ng-scroller scroller-easing="easeInOutQuint" scroller-offset="1" scroller-duration="600"></div>`
+
+## Options
+
+* scroller-to="{{'element-1}}"
+** When this element is clicked, automatically scroll to element with id="element-1"
+
+* scroller-if="{{'true'}}"
+** When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
+
+* scroller-easing="easingFunctionName"
+** Valid easing function names:
+*** Accelerating from zero velocity.
+**** 'easeInQuad'
+**** 'easeInCubic'
+**** 'easeInQuart'
+**** 'easeInQuint'
+*** Decelerating to zero velocity.
+**** 'easeOutQuad'
+**** 'easeOutCubic'
+**** 'easeOutQuart'
+**** 'easeOutQuint'
+*** Acceleration until halfway, then deceleration.
+**** 'easeInOutQuad'
+**** 'easeInOutCubic'
+**** 'easeInOutQuart'
+**** 'easeInOutQuint'
+
+* scroller-offset="10"
+** Number of pixels to offset the top of scroll to location.
+
+* scroller-duration="600"
+** Milliseconds for animation step. Higher numbers give slower animation.
 
 ## Installation
 
