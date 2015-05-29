@@ -30,34 +30,34 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 ## Options
 
 * scroller-to="{{'element-1}}"<br>
---- When this element is clicked, automatically scroll to element with id="element-1"
+   When this element is clicked, automatically scroll to element with id="element-1"
 
 * scroller-if="{{'true'}}"<br>
---- When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
+   When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
 
 * scroller-easing="easingFunctionName"<br>
    Valid easing function names:<br>
---- Accelerating from zero velocity.<br>
---- 'easeInQuad'<br>
---- 'easeInCubic'<br>
---- 'easeInQuart'<br>
---- 'easeInQuint'<br>
---- Decelerating to zero velocity.<br>
---- 'easeOutQuad'<br>
---- 'easeOutCubic'<br>
---- 'easeOutQuart'<br>
---- 'easeOutQuint'<br>
---- Acceleration until halfway, then deceleration.<br>
---- 'easeInOutQuad'<br>
---- 'easeInOutCubic'<br>
---- 'easeInOutQuart'<br>
---- 'easeInOutQuint'<br>
+     Accelerating from zero velocity:<br>
+        'easeInQuad'<br>
+        'easeInCubic'<br>
+        'easeInQuart'<br>
+        'easeInQuint'<br>
+     Decelerating to zero velocity:<br>
+        'easeOutQuad'<br>
+        'easeOutCubic'<br>
+        'easeOutQuart'<br>
+        'easeOutQuint'<br>
+     Acceleration until halfway, then deceleration:<br>
+        'easeInOutQuad'<br>
+        'easeInOutCubic'<br>
+        'easeInOutQuart'<br>
+        'easeInOutQuint'<br>
 
 * scroller-offset="10"<br>
---- Number of pixels to offset the top of scroll to location.
+   Number of pixels to offset the top of scroll to location.
 
 * scroller-duration="600"<br>
---- Milliseconds for animation step. Higher numbers give slower animation.
+   Milliseconds for animation step. Higher numbers give slower animation.
 
 ## Installation
 
