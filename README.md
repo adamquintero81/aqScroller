@@ -14,14 +14,14 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 `<div ng-scroller></div>`
 
 * Example scrolls to another element when this element is clicked (element for scroll-to must have an id):<br>
-`<div id="element-id"></div>
+`<div id="element-id"></div>`
 `<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
 
 * Example scrolls to this element when clicked if(condition = true):<br>
 `<div ng-scroller ng-scroll-if="{{'true'}}"></div>`
 
 * Example scrolls to another element when this element is clicked if(condition = true) (element for scroll-to must have an id):<br>
-`<div id="element-id"></div>
+`<div id="element-id"></div>`
 `<div ng-scroller ng-scroll-if="{{'true'}}" ng-scroll-to="{{'element-id'}}"></div>`
 
 * Example scrolls using user-defined settings:<br>
