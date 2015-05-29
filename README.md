@@ -29,7 +29,10 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 
 ## Installation
 
-Inject as a dependency to an AngularJS module.
+Include the script file **after** angular.js in your html:<br>
+`<script type="text/javascript" src="angular-ng-scroller.js"></script>`<br>
+Inject as a dependency to an AngularJS module.<br>
+`angular.module('myApp', ['aqScroller']);`
 
 ## License
 
