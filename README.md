@@ -8,26 +8,28 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 
 ## Code Example
 
-###With the 'aqScroller' module injected as a dependency in your AngularJS app (The element to scroll must have an id attribute defined):
+###With the 'aqScroller' module injected as a dependency in your AngularJS app:
 
 * Example scrolls to this element automatically when it is clicked using default settings:<br>
-`<div ng-attr-id="{{ctrl.setMyElementIDfunc()}}" ng-scroller></div>`
+`<div ng-scroller></div>`
 
-* Example scrolls to another element when this element is clicked:<br>
+* Example scrolls to another element when this element is clicked (element for scroll-to must have an id):<br>
+`<div id="element-id"></div>
 `<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
 
 * Example scrolls to this element when clicked if(condition = true):<br>
 `<div ng-scroller ng-scroll-if="{{'true'}}"></div>`
 
-* Example scrolls to another element when this element is clicked if(condition = true):<br>
+* Example scrolls to another element when this element is clicked if(condition = true) (element for scroll-to must have an id):<br>
+`<div id="element-id"></div>
 `<div ng-scroller ng-scroll-if="{{'true'}}" ng-scroll-to="{{'element-id'}}"></div>`
 
 * Example scrolls using user-defined settings:<br>
-`<div id="element-1" ng-scroller scroller-easing="easeInOutQuint" scroller-offset="1" scroller-duration="600"></div>`
+`<div ng-scroller scroller-easing="easeInOutQuint" scroller-offset="1" scroller-duration="600"></div>`
 
 ## Installation
 
-Inject as a dependency to an AngularJS module. The element to scroll must have an id attribute defined.
+Inject as a dependency to an AngularJS module.
 
 ## License
 
