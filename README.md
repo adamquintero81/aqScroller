@@ -30,24 +30,24 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 ## Options
 
 * scroller-to="{{'element-1}}"
---* When this element is clicked, automatically scroll to element with id="element-1"
+--- When this element is clicked, automatically scroll to element with id="element-1"
 
 * scroller-if="{{'true'}}"
---* When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
+--- When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
 
 * scroller-easing="easingFunctionName"
---* Valid easing function names:
+--- Valid easing function names:
 --* Accelerating from zero velocity.
 ---* 'easeInQuad'
 ---* 'easeInCubic'
 ---* 'easeInQuart'
 ---* 'easeInQuint'
---* Decelerating to zero velocity.
+--- Decelerating to zero velocity.
 ---* 'easeOutQuad'
 ---* 'easeOutCubic'
 ---* 'easeOutQuart'
 ---* 'easeOutQuint'
---* Acceleration until halfway, then deceleration.
+--- Acceleration until halfway, then deceleration.
 ---* 'easeInOutQuad'
 ---* 'easeInOutCubic'
 ---* 'easeInOutQuart'
