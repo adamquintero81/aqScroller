@@ -13,16 +13,16 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 Example scrolls to this element automatically when it is clicked using default settings:
 `<div ng-attr-id="{{ctrl.setMyElementIDfunc()}}" ng-scroller></div>`
 
-Example scrolls to another element when this element is clicked:
+Example scrolls to another element when this element is clicked:<br>
 `<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
 
-Example scrolls to this element when clicked if(condition = true):
+Example scrolls to this element when clicked if(condition = true):<br>
 `<div ng-scroller ng-scroll-if="{{'true'}}"></div>`
 
-Example scrolls to another element when this element is clicked if(condition = true):
+Example scrolls to another element when this element is clicked if(condition = true):<br>
 `<div ng-scroller ng-scroll-if="{{'true'}}" ng-scroll-to="{{'element-id'}}"></div>`
 
-Example scrolls using user-defined settings:
+Example scrolls using user-defined settings:<br>
 `<div id="element-1" ng-scroller scroller-easing="easeInOutQuint" scroller-offset="1" scroller-duration="600"></div>`
 
 ## Installation
