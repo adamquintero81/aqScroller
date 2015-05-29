@@ -29,35 +29,35 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 
 ## Options
 
-1. scroller-to="{{'element-1}}"<br>
---* When this element is clicked, automatically scroll to element with id="element-1"
+* scroller-to="{{'element-1}}"<br>
+--- When this element is clicked, automatically scroll to element with id="element-1"
 
-2. scroller-if="{{'true'}}"<br>
---* When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
+* scroller-if="{{'true'}}"<br>
+--- When this element is clicked, automatically scroll if 'true', do nothing if 'false'.
 
-3. scroller-easing="easingFunctionName"<br>
---* Valid easing function names:
---* Accelerating from zero velocity.
---* 'easeInQuad'
---* 'easeInCubic'
---* 'easeInQuart'
---* 'easeInQuint'
---* Decelerating to zero velocity.
---* 'easeOutQuad'
---* 'easeOutCubic'
---* 'easeOutQuart'
---* 'easeOutQuint'
---* Acceleration until halfway, then deceleration.
---* 'easeInOutQuad'
---* 'easeInOutCubic'
---* 'easeInOutQuart'
---* 'easeInOutQuint'
+* scroller-easing="easingFunctionName"<br>
+   Valid easing function names:<br>
+--- Accelerating from zero velocity.<br>
+--- 'easeInQuad'<br>
+--- 'easeInCubic'<br>
+--- 'easeInQuart'<br>
+--- 'easeInQuint'<br>
+--- Decelerating to zero velocity.<br>
+--- 'easeOutQuad'<br>
+--- 'easeOutCubic'<br>
+--- 'easeOutQuart'<br>
+--- 'easeOutQuint'<br>
+--- Acceleration until halfway, then deceleration.<br>
+--- 'easeInOutQuad'<br>
+--- 'easeInOutCubic'<br>
+--- 'easeInOutQuart'<br>
+--- 'easeInOutQuint'<br>
 
-4. scroller-offset="10"
---* Number of pixels to offset the top of scroll to location.
+* scroller-offset="10"<br>
+--- Number of pixels to offset the top of scroll to location.
 
-5. scroller-duration="600"
---* Milliseconds for animation step. Higher numbers give slower animation.
+* scroller-duration="600"<br>
+--- Milliseconds for animation step. Higher numbers give slower animation.
 
 ## Installation
 
