@@ -14,7 +14,7 @@ I needed a way to simplify automatic scrolling to elements in my AngularJS apps,
 `<div ng-attr-id="{{ctrl.setMyElementIDfunc()}}" ng-scroller></div>`
 
 * Example scrolls to another element when this element is clicked:<br>
-*`<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
+`<div ng-scroller ng-scroll-to="{{'element-id'}}"></div>`
 
 * Example scrolls to this element when clicked if(condition = true):<br>
 `<div ng-scroller ng-scroll-if="{{'true'}}"></div>`
