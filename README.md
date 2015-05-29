@@ -4,7 +4,7 @@ Source code for aqScoller, an AngularJS module to facilitate easy-to-implement a
 
 ## Motivation
 
-I needed a way to simplify automatic scrolling to elements in my AngularJS apps, so I adapted the methods from ngSmoothScroll @ https://github.com/d-oliveros/ngSmoothScroll. All functions, directives, and services are contained within AngularJS , no global namespace used. 
+I needed a way to simplify automatic scrolling to elements in my AngularJS apps, so I adapted the methods from ngSmoothScroll @ https://github.com/d-oliveros/ngSmoothScroll. All functions, directives, and services are contained within AngularJS, no global namespace used. 
 
 ## Code Example
 
